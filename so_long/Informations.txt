@@ -1,0 +1,47 @@
+ 1 )what is a framework
+A framework is a pre-written code library that contains a set of standardized functions, classes, and data types. It provides a reusable and customizable structure for developing applications.
+
+2 ) why we need it
+We need frameworks like OpenGL and Appkit to make it easier to develop graphics-intensive applications like video games, multimedia software, or scientific simulations. They provide a pre-built set of tools and libraries that handle low-level details, such as graphics rendering and window management, so that the programmer can focus on the application logic.
+
+3 ) what is  OpenGL and Appkit
+OpenGL is a cross-platform graphics API (Application Programming Interface) used for creating 2D and 3D graphics in computer applications. It is widely used in video games, scientific simulations, virtual reality, and other applications that require high-performance graphics rendering.
+
+Appkit, on the other hand, is a framework used for developing graphical user interfaces (GUIs) on macOS operating system. It provides the core components for creating and managing windows, menus, buttons, text fields, and other GUI elements.
+4) why exactlyOpenGL and Appkit
+We need OpenGL and Appkit specifically for the development of graphics applications on macOS. OpenGL provides the graphics rendering capabilities while Appkit provides the window management and GUI components necessary for creating a user-friendly interface.
+
+5) what is the deference between framework and a library?
+A framework is a pre-written code structure that provides a set of rules and guidelines that can be used to build applications. It includes libraries, APIs, and other tools that provide a specific functionality or solve a specific problem. Frameworks are more comprehensive than libraries and usually include multiple libraries, making it easier to build complex applications.
+
+A library, on the other hand, is a collection of pre-written code that can be used to perform a specific task or provide a specific functionality. Libraries provide a set of functions that can be called by an application to perform specific tasks. Unlike frameworks, libraries do not impose a specific structure or rules for building an application.
+
+
+
+
+flood fill impelimantation:
+// void ft_flood_fill(struct s_info *g, int px, int py)
+// {
+//     if(px < 0 || px == g->len || py < 0 || py == g->nb
+//         || g->copy[py][px] == 'X' || g->copy[py][px] == '1')
+//         return ;
+//     g->copy[py][px] = 'X';
+//     ft_flood_fill(g, g->px + 1, py);
+//     ft_flood_fill(g, px - 1, py);
+//     ft_flood_fill(g, px, py + 1);
+//     ft_flood_fill(g, px, py - 1);
+// }
+
+
+void pop()
+{
+	system("leaks a.out");
+}
+
+inside the main 
+atexit(pop);
+
+
+
+
+mlx_string_put
